@@ -10,7 +10,7 @@ import { SiMongodb } from "react-icons/si";
 export const PROFILE_DATA = {
   name: "Jan Liedgens",
   tagline:
-    "Hallo ich bin Jan und komme aus der Nähe von Köln. Ich versuche kreativ zu sein und und fühle mich in der Technik Welt zuhause.",
+    "Hallo ich bin Jan und komme aus der Nähe von Köln. Ich versuche kreativ zu sein und fühle mich in der Technik Welt zuhause.",
   jobTitle: "Frontend Developer",
   location: "Germany",
   yearsOfExperience: 2,
@@ -23,7 +23,7 @@ export const PROFILE_DATA = {
     "Photoshop",
     "Linux",
   ],
-  email: "john.doe@example.com",
+  email: "janderdev@devmail.com",
   phone: "0000 0000000",
   website: "https://www.linkedin.com/in/janlie",
 };

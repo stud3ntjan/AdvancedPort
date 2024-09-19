@@ -40,7 +40,7 @@ const MobileNavbar = ({ isOpen, setIsMenuOpen }) => {
         </ul>
 
         <button
-          className="h-10 bg-primary text-white text-xs md:text-sm px-6 rounded hover:bg-blue-200 hover:text-primary md:block"
+          className="h-10 bg-primary text-white text-xs md:text-sm px-6 rounded hover:bg-pink-400 hover:text-primary md:block"
           onClick={() => handleScroll("contact")}
         >
           Contact Me

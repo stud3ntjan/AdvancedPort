@@ -45,17 +45,49 @@ const Hero = () => {
           </div>
 
           <div className="bg-cardbg rounded-md text-center mt-3 p-4">
-            <h5 className="">{name}</h5>
-            <p className="">{jobTitle}</p>
+            <h5 className="text-sm md:text-base text-white">{name}</h5>
+            <p className="text-slate-500 text-xs md:font-medium mt-1">
+              {jobTitle}
+            </p>
 
-            <div className="bg-cardbg rounded-md text-center mt-3 p-4">
+            <div className="flex items-center justify-center gap-2 text-slate-500 text-xs mt-1">
               <HiOutlineLocationMarker />
               <p className="font-medium">{location}</p>
             </div>
           </div>
+
+          <InfoTile
+            icon={<FiMail size={20} className="text-sky-400" />}
+            text={email}
+          />
+
+          <InfoTile
+            icon={<MdOutlineBadge size={20} className="text-sky-400" />}
+            text={`${yearsOfExperience} Jahre Erfahrung`}
+          />
+
+          <div className="flex items-center gap-2 flex-wrap my-3">
+            {skills.map((item) => (
+              <div
+                key={item}
+                className="text-[11px] bg-blue-800/30 rounded md:text-xs px-3 py-1"
+              >
+                {item}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
+  );
+};
+
+const InfoTile = ({ icon, text }) => {
+  return (
+    <div className="flex items-center gap-4 bg-cardbg p-4 mt-3 rounded-md">
+      {icon}
+      <p className="text-xs md:text-sm font-normal">{text}</p>
+    </div>
   );
 };
 

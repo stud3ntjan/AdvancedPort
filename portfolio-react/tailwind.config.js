@@ -9,12 +9,12 @@ export default {
     extend: {
       // Colors used
       colors: {
-        primary: "#0F9DF8",
-        background: "#040B1C",
-        cardbg: "#061840",
-        white: "#FBFBFB",
+        primary: "#6E0056", // #0F9DF8
+        background: "#2E001B", // #040B1C
+        cardbg: "#33003B", // #061840
+        white: "#FBFBFB", // #FBFBFB
 
-        navbg: "#0A214E",
+        navbg: "#7B0060", // #0A214E
 
         overlayBg: "rgba(0,0,0,0.3)",
       },
