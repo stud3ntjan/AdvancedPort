@@ -8,10 +8,10 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
 
 export const PROFILE_DATA = {
-  name: "John Dow",
+  name: "Jan Liedgens",
   tagline:
-    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-  jobTitle: "Full Stack Developer",
+    "Hallo ich bin Jan und komme aus der Nähe von Köln. Ich versuche kreativ zu sein und und fühle mich in der Technik Welt zuhause.",
+  jobTitle: "Frontend Developer",
   location: "Germany",
   yearsOfExperience: 2,
   skills: [

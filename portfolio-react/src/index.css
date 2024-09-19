@@ -24,4 +24,16 @@
            after:transition-all after:hover:translate-x-0 
            after:hover:opacity-100;
   }
+
+  .primary-btn {
+    @apply h-9 md:h-11 bg-primary text-white text-sm px-6 rounded border border-primary hover:bg-transparent hover:text-primary;
+  }
+
+  .hero-img {
+    @apply w-[120px] h-[120px] md:w-[139px] bg-gray-800 rounded-full;
+  }
+
+  .ui-circle {
+    @apply w-[130px] h-[130px] md:w-[180px] origin-top-left rotate-[-36.39deg] rounded-[117px] border-b-2 border-sky-500;
+  }
 }
