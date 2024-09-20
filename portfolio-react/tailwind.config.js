@@ -11,10 +11,10 @@ export default {
       colors: {
         primary: "#6E0056", // #0F9DF8
         background: "#2E001B", // #040B1C
-        cardbg: "#33003B", // #061840
+        cardbg: "#590345", // #061840
         white: "#FBFBFB", // #FBFBFB
 
-        navbg: "#7B0060", // #0A214E
+        navbg: "#590345", // #0A214E #63004C
 
         overlayBg: "rgba(0,0,0,0.3)",
       },

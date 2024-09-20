@@ -18,7 +18,7 @@
 @layer components {
   .menu-item {
     @apply text-xs md:text-sm font-normal text-white relative cursor-pointer 
-           after:content-[''] after:w-full after:h-[3px] after:bg-primary 
+           after:content-[''] after:w-full after:h-[3px] after:bg-slate-50 
            after:absolute after:left-0 after:-bottom-2 after:rounded 
            after:-translate-x-11 after:opacity-0 
            after:transition-all after:hover:translate-x-0 
@@ -30,7 +30,7 @@
   }
 
   .hero-img {
-    @apply w-[120px] h-[120px] md:w-[139px] bg-gray-800 rounded-full;
+    @apply w-[120px] h-[120px] md:w-[139px] md:h-[139px] bg-gray-800 rounded-full object-cover aspect-square;
   }
 
   .ui-circle {
