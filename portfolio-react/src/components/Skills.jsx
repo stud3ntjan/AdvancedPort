@@ -14,7 +14,7 @@ const Skills = () => {
               key={skill.id}
               icon={skill.icon}
               iconProps={skill.iconProps}
-              titel={skill.titel}
+              title={skill.title}
               comment={skill.comment}
             />
           ))}
@@ -24,8 +24,17 @@ const Skills = () => {
   );
 };
 
-const SkillsCard = ({ icon: IconBase, iconProps, titel, comment }) => {
-  return <div className=""></div>;
+const SkillsCard = ({ icon: Icon, iconProps, title, comment }) => {
+  return (
+    <div className="bg-slate-900 rounded border borderfuchsia-500 p-5">
+      <div className="flex items-center justify-between mb-5">
+        <p className="text-base">{title}</p>
+        <Icon className="text-primary text-3xl" />
+      </div>
+
+      <p className="text-xs font-light leading-5 opacity-80">{comment}</p>
+    </div>
+  );
 };
 
 export default Skills;
