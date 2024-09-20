@@ -38,9 +38,9 @@ const WorkExpericeneCard = ({
   return (
     <div className="relative">
       <div
-        className={`hidden md:block h-[140px] border-b
-        ${index > 0 ? "min-w-96 border-l" : " ml-auto w-40"}
-        ${isLast ? "w-40 mr-auto" : ""} border-fuchsia-500 border-dashed`}
+        className={`hidden md:block h-[140px] border-b ${
+          index > 0 ? "min-w-96 border-l" : " ml-auto w-40"
+        } ${isLast ? "w-40 mr-auto" : ""} border-fuchsia-500 border-dashed`}
       />
 
       {!isLast && (

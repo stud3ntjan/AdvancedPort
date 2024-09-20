@@ -84,17 +84,17 @@ export const WORK_EXPERIENCE = [
   },
   {
     id: "02",
-    company: "DreamCom",
-    position: "DreamPosition",
-    duration: "2015-2016",
+    company: "DreamCom2",
+    position: "DreamPosition2",
+    duration: "2016-2017",
     description:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
   },
   {
     id: "03",
-    company: "DreamCom",
-    position: "DreamPosition",
-    duration: "2015-2016",
+    company: "DreamCom3",
+    position: "DreamPosition3",
+    duration: "2017-2018",
     description:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
   },
