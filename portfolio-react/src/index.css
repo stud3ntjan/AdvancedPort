@@ -34,6 +34,6 @@
   }
 
   .ui-circle {
-    @apply w-[130px] h-[130px] md:w-[180px] origin-top-left rotate-[-36.39deg] rounded-[117px] border-b-2 border-pink-400;
+    @apply w-[130px] h-[130px] md:w-[180px] md:h-[180px] origin-top-left rotate-[-36.39deg] rounded-[117px] border-b-2 border-pink-400;
   }
 }

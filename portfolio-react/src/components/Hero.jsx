@@ -92,6 +92,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
+
+      <div class="ui-circle absolute top-6 md:top-10 -left-10 md:left-0"></div>
     </section>
   );
 };
