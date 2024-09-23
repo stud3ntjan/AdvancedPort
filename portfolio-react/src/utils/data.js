@@ -7,6 +7,7 @@ import {
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
 import { FaLinux } from "react-icons/fa";
+import { DiPhotoshop } from "react-icons/di";
 
 export const PROFILE_DATA = {
   name: "Jan Liedgens",
@@ -42,42 +43,42 @@ export const SKILLS = [
     icon: IoLogoHtml5,
     title: "HTML",
     comment:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
+      "Vor über 10 Jahren im Fachabitur gelernt, ist HTML für mich die Basis jeder Webentwicklung. Es ist das Werkzeug, mit dem ich am liebsten arbeite, da es mir ermöglicht, meine Kreativität beim Strukturieren von Webseiten voll auszuleben.",
   },
   {
     id: "02",
     icon: IoLogoJavascript,
     title: "JavaScript",
     comment:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
+      "Vor einem Jahr bin ich in die Welt von JavaScript eingetaucht. Obwohl ich noch mitten im Lernprozess stecke, fasziniert mich die Vielseitigkeit dieser Sprache. Die unendlichen Möglichkeiten, Interaktivität und Dynamik in Webseiten zu bringen, treiben mich an, tiefer einzutauchen.",
   },
   {
     id: "03",
     icon: FaLinux,
     title: "Linux",
     comment:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
+      "Mein Interesse an Linux ist vor etwa einem Jahr erwacht, und seitdem hat es mich gepackt. Ich habe nicht nur meine Neugier gestillt, sondern auch eine Zertifizierung erworben, um mein Wissen zu vertiefen. Es ist ein faszinierendes System, das mir immer wieder neue Möglichkeiten bietet.",
   },
   {
     id: "04",
     icon: IoLogoNodejs,
     title: "Node JS",
     comment:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
+      "Genau wie Linux habe ich vor einem Jahr mit Node.js begonnen und bin begeistert von der Flexibilität und den endlosen Anwendungsmöglichkeiten. Es ist großartig, mit JavaScript auch serverseitig arbeiten zu können und leistungsfähige Webanwendungen zu entwickeln.",
   },
   {
     id: "05",
-    icon: SiMongodb,
-    title: "MongoDB",
+    icon: DiPhotoshop,
+    title: "Photoshop",
     comment:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
+      "Mit über 10 Jahren Erfahrung in Photoshop, das ich ebenfalls im Fachabitur gelernt habe, ist es zu einem meiner liebsten Werkzeuge geworden. Ich genieße es, kreativ zu sein und visuell ansprechende Designs zu gestalten, sei es für Webprojekte oder persönliche Projekte.",
   },
   {
     id: "06",
     icon: RiTailwindCssFill,
     title: "Tailwind CSS",
     comment:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
+      "Tailwind CSS ist ganz neu für mich, aber ich bin bereits jetzt von der Einfachheit und Effizienz begeistert. Es bietet mir die Möglichkeit, schnell und präzise ansprechende Designs zu erstellen, und ich freue mich darauf, mehr darüber zu lernen.",
   },
 ];
 
