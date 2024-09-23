@@ -136,7 +136,7 @@ export const ABOUT_ME_DATA = {
     "Meine Stärken liegen vor allem in HTML, CSS und JavaScript. Dazu kommt meine Erfahrung mit Node.js, Tailwind CSS und React. Ich arbeite gerne kreativ mit Design-Tools wie Photoshop und liebe es, benutzerfreundliche und ansprechende Webseiten zu erstellen.",
   projects: "",
   interests:
-    "Neben der Webentwicklung interessiere ich mich sehr für Linux und Cloud-Technologien. Ich genieße es, tiefer in Systeme einzutauchen und dabei stetig neue Dinge zu lernen. Außerdem bin ich ein großer Fan von Videospielen und habe bereits etwas Erfahrung im Umgang mit Unity",
+    "Neben der Webentwicklung interessiere ich mich sehr für Linux und Cloud-Technologien. Ich genieße es, tiefer in Systeme einzutauchen und dabei stetig neue Dinge zu lernen. Außerdem bin ich ein großer Fan von Videospielen und habe bereits etwas Erfahrung im Umgang mit Unity.",
   careerGoals: "",
 
   stats: {
