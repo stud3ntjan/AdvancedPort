@@ -114,7 +114,7 @@ export const ABOUT_ME_DATA = {
     "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
 
   stats: {
-    yearsOfExperience: "10",
+    yearsOfExperience: "2",
     numberOfProjects: 5,
     certificationsEarned: 1,
   },

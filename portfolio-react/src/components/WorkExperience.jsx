@@ -61,7 +61,7 @@ const WorkExpericeneCard = ({
           </div>
         </div>
 
-        <p className="text-fuchsia-50 text-xs font-thin leading-5 mt-5">
+        <p className="text-fuchsia-50 text-xs font-normal leading-5 mt-5">
           {description}
         </p>
       </div>
