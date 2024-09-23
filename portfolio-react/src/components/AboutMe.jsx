@@ -19,8 +19,10 @@ const AboutMe = () => {
 
         <div className="col-span-2 bg-gradient-to-br from-fuchsia-950 to-slate-950 rounded-lg border border-fuchsia-500 p-6">
           <p className="text-white text-xs md:text-[13px] font-normal text-justify leading-6">
-            {ABOUT_ME_DATA.introduction} {ABOUT_ME_DATA.background}
-            {""}
+            {ABOUT_ME_DATA.introduction}
+            <br />
+            {ABOUT_ME_DATA.background}
+            <br />
             {ABOUT_ME_DATA.interests}
           </p>
 
@@ -45,7 +47,7 @@ const AboutMe = () => {
 
         <InfoCard
           count={ABOUT_ME_DATA.stats.certificationsEarned}
-          lable="Zertifikate"
+          lable="Zertifikat"
         />
       </div>
     </section>
@@ -57,9 +59,7 @@ const InfoCard = ({ lable, count }) => {
     <div className="bg-gradient-to-br from-fuchsia-950 to-slate-950 rounded-lg border border-fuchsia-500 px-4 md:px-6 py-3">
       <h6 className="text-white text-xl md:text-2xl font-semibold">{count}</h6>
 
-      <span className="text-primary text-xs md:text-sm font-normal">
-        {lable}
-      </span>
+      <span className="text-white text-xs md:text-sm font-normal">{lable}</span>
     </div>
   );
 };

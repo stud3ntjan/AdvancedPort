@@ -79,42 +79,65 @@ export const SKILLS = [
 export const WORK_EXPERIENCE = [
   {
     id: "01",
-    company: "DreamCom",
-    position: "DreamPosition",
-    duration: "2015-2016",
+    company: "Techstarter GmbH",
+    position: "",
+    duration: "2023-2024",
     description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
+      "Weiterbildung im Bereich Cloud und Webentwicklung, mit Fokus auf Linux, JavaScript, Node.js und AWS. Meine größten Learnings lagen in der praktischen Anwendung dieser Technologien, um moderne Webanwendungen und Cloud-Infrastrukturen zu entwickeln.",
   },
   {
     id: "02",
-    company: "DreamCom2",
-    position: "DreamPosition2",
-    duration: "2016-2017",
+    company: "Teleperformance",
+    position: "Backoffice Agent",
+    duration: "2022-2023",
     description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
+      "Tätig im Energiesektor als Sachbearbeiter, dabei kamen SAP IS-U, SAP CRM, Salesforce und Microsoft-Produkte täglich zum Einsatz. Die Arbeit erforderte präzise Verwaltung von Kundendaten und Prozessen im Energiemanagement.",
   },
   {
     id: "03",
-    company: "DreamCom3",
-    position: "DreamPosition3",
+    company: "TotalEnergies",
+    position: "Nachtschicht Verkäufer",
+    duration: "2019-2021",
+    description:
+      "In der Nachtschicht war ich verantwortlich für den Kundenservice, das Lagermanagement und die Bestandsverwaltung. Der direkte Kontakt mit Kunden sowie effizientes Bestandsmanagement gehörten zu meinen Kernkompetenzen.",
+  },
+  {
+    id: "04",
+    company: "Bowl Position",
+    position: "Barkeeper",
+    duration: "2018-2019",
+    description:
+      "Verantwortlich für den Kundenservice und die Bestandsverwaltung hinter der Bar. Dabei standen der direkte Kontakt mit den Gästen sowie das effiziente Management der Vorräte im Vordergrund.",
+  },
+  {
+    id: "05",
+    company: "CLIC-AND-GET GmbH",
+    position: "Teamleiter & Kommissionierer",
     duration: "2017-2018",
     description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
+      "Leitete ein Team und war gleichzeitig in der Kommissionierung tätig. Arbeitete intensiv mit Microsoft Office, insbesondere Excel, sowie E-Commerce-Plattformen wie eBay und Rakuten.",
+  },
+  {
+    id: "06",
+    company: "Amatulli Import",
+    position: "Büroangestellter & Fachkraft für Lagerlogistik",
+    duration: "2014-2016",
+    description:
+      "Kombinierte Tätigkeiten im Büro und der Lagerlogistik, mit Fokus auf E-Commerce-Tools wie JTL Wawi, Magento, und Shop-Systemen von eBay und Amazon. Zusätzlich kam Microsoft Office und Outlook zum Einsatz, um den täglichen Arbeitsfluss zu organisieren.",
   },
 ];
 
 export const ABOUT_ME_DATA = {
-  introduction: "Hi ich bin Jan und komme aus nähe von Köln. Bla Bla Bla",
+  introduction:
+    "Hi, ich bin Jan und komme aus der Nähe von Köln. Ich liebe es, in die Welt der Webentwicklung einzutauchen und ständig neue Dinge zu lernen, besonders wenn es um kreative Projekte geht.",
   background:
-    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
+    "Schon während meines Fachabiturs habe ich meine Leidenschaft für Technik und Webentwicklung entdeckt. Mit über 10 Jahren Erfahrung in Photoshop und meinen neu entdeckten Fähigkeiten in JavaScript und Node.js entwickle ich mich stetig weiter.",
   skills:
-    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
-  projects:
-    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
+    "Meine Stärken liegen vor allem in HTML, CSS und JavaScript. Dazu kommt meine Erfahrung mit Node.js, Tailwind CSS und React. Ich arbeite gerne kreativ mit Design-Tools wie Photoshop und liebe es, benutzerfreundliche und ansprechende Webseiten zu erstellen.",
+  projects: "",
   interests:
-    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
-  careerGoals:
-    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
+    "Neben der Webentwicklung interessiere ich mich sehr für Linux und Cloud-Technologien. Ich genieße es, tiefer in Systeme einzutauchen und dabei stetig neue Dinge zu lernen. Außerdem bin ich ein großer Fan von Videospielen und habe bereits etwas Erfahrung im Umgang mit Unity",
+  careerGoals: "",
 
   stats: {
     yearsOfExperience: "2",
