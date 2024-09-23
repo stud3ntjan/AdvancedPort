@@ -1,11 +1,54 @@
-import React from "react";
-
+import React, { useState } from "react";
 import { PROFILE_DATA } from "../utils/data";
 import { IoMdMail } from "react-icons/io";
 import { IoPhonePortraitOutline } from "react-icons/io5";
 import { MdOutlineWeb } from "react-icons/md";
 
 const Contact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [statusMessage, setStatusMessage] = useState(null);
+  const [statusType, setStatusType] = useState("");
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch("http://localhost:5000/send-email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name,
+          email,
+          message,
+        }),
+      });
+
+      if (response.ok) {
+        setStatusMessage("Nachricht erfolgreich gesendet!");
+        setStatusType("success"); // Erfolg
+        setName("");
+        setEmail("");
+        setMessage("");
+      } else {
+        setStatusMessage("Fehler beim Senden der Nachricht.");
+        setStatusType("error"); // Fehler
+      }
+    } catch (error) {
+      console.error("Fehler:", error);
+      setStatusMessage("Es gab ein Problem beim Senden der Nachricht.");
+      setStatusType("error");
+    }
+
+    setTimeout(() => {
+      setStatusMessage(null);
+      setStatusType("");
+    }, 3000);
+  };
+
   return (
     <section className="max-w-screen-xl mx-auto px-6 pb-20" id="contact">
       <h5 className="text-primary text-2xl md:text-4xl font-semibold text-center pb-8 md:pb-14">
@@ -28,35 +71,55 @@ const Contact = () => {
           <h5 className="md:hidden text-white text-lg font-medium mt-4 pb-5">
             Kontaktformular
           </h5>
-          <form className="flex flex-col">
+
+          {/* Statusmeldung */}
+          {statusMessage && (
+            <div
+              className={`${
+                statusType === "success" ? "bg-green-500" : "bg-red-500"
+              } text-white p-4 rounded-md mb-4`}
+            >
+              {statusMessage}
+            </div>
+          )}
+
+          <form className="flex flex-col" onSubmit={handleSubmit}>
             <input
               type="text"
               name="fullname"
               placeholder="Vollständiger Name"
-              id=""
+              value={name}
+              onChange={(e) => setName(e.target.value)}
               className="input-box"
               autoComplete="off"
+              required
             />
 
             <input
-              type="text"
+              type="email"
               name="email"
               placeholder="Email"
-              id=""
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
               className="input-box"
               autoComplete="off"
+              required
             />
 
             <textarea
               name="message"
               placeholder="Nachricht"
-              id=""
-              row="3"
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
+              rows="3"
               className="input-box"
               autoComplete="off"
+              required
             ></textarea>
 
-            <button className="primary-btn">Senden</button>
+            <button type="submit" className="primary-btn">
+              Senden
+            </button>
           </form>
         </div>
       </div>

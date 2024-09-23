@@ -3,29 +3,28 @@ const cors = require("cors");
 const nodemailer = require("nodemailer");
 const dotenv = require("dotenv");
 
-dotenv.config(); // Lädt Umgebungsvariablen aus der .env-Datei
+dotenv.config();
 
 const app = express();
 
 // Middleware
-app.use(cors()); // Erlaubt Cross-Origin-Anfragen
-app.use(express.json()); // Ermöglicht das Parsen von JSON-Anfragen
+app.use(cors());
+app.use(express.json());
 
-// Test-Route, um sicherzustellen, dass das Backend läuft
+// Test-Route
 app.get("/", (req, res) => {
   res.send("Backend läuft!");
 });
 
-// Nodemailer-API-Route
+// Nodemailer
 app.post("/send-email", async (req, res) => {
   const { name, email, message } = req.body;
 
-  // Nodemailer Transporter einrichten
   let transporter = nodemailer.createTransport({
-    service: "Gmail", // du kannst hier auch andere Dienste verwenden
+    service: "Gmail",
     auth: {
-      user: process.env.EMAIL_USER, // dein E-Mail-Account
-      pass: process.env.EMAIL_PASS, // dein E-Mail-Passwort
+      user: process.env.EMAIL_USER, // E-Mail
+      pass: process.env.EMAIL_PASS, // Password
     },
   });
 
