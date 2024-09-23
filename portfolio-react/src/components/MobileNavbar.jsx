@@ -3,9 +3,7 @@ import React from "react";
 const MobileNavbar = ({ isOpen, setIsMenuOpen }) => {
   const handleScroll = (sectionId) => {
     if (isOpen) setIsMenuOpen(false);
-    decodeURIComponent
-      .getElementById(sectionId)
-      .scrollIntoView({ behavior: "smooth" });
+    document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
   };
 
   return (
