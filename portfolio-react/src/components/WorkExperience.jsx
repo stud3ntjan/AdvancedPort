@@ -2,6 +2,7 @@ import React from "react";
 
 import { WORK_EXPERIENCE } from "../utils/data";
 
+// bg-gradient-to-r from-fuchsia-500 to-sky-500 text-transparent bg-clip-text GRADIENT
 const WorkExperience = () => {
   return (
     <section
