@@ -4,7 +4,6 @@ import { HiOutlineLocationMarker } from "react-icons/hi";
 import { FiMail } from "react-icons/fi";
 import { MdOutlineBadge } from "react-icons/md";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 
 import PROFILE_PIC from "../assets/janclean4k.png";
 
@@ -35,7 +34,16 @@ const Hero = () => {
           {tagline}
         </p>
 
-        <button className="primary-btn">Contact Me</button>
+        <button
+          className="primary-btn"
+          onClick={() =>
+            document
+              .getElementById("contact")
+              .scrollIntoView({ behavior: "smooth" })
+          }
+        >
+          Contact Me
+        </button>
       </div>
 
       <div className="flex gap-2 justify-center md:gap-3 lg:gap-5 z-[1]">
@@ -78,17 +86,23 @@ const Hero = () => {
           </div>
 
           <div className="flex items-center gap-2 flex-wrap">
-            <div className="bg-fuchsia-950 p-2 rounded">
+            <a
+              href="https://github.com/your-github-profile"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-fuchsia-950 p-2 rounded"
+            >
               <FaGithub className="text-lg md:text-xl" />
-            </div>
+            </a>
 
-            <div className="bg-fuchsia-950 p-2 rounded">
+            <a
+              href="https://www.linkedin.com/in/janlie"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-fuchsia-950 p-2 rounded"
+            >
               <FaLinkedin className="text-lg md:text-xl" />
-            </div>
-
-            <div className="bg-fuchsia-950 p-2 rounded">
-              <FaXTwitter className="text-lg md:text-xl" />
-            </div>
+            </a>
           </div>
         </div>
       </div>
