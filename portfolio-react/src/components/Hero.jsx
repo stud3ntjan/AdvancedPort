@@ -26,12 +26,12 @@ const Hero = () => {
     >
       <div className="flex-1 text-center md:text-left z-[1]">
         <span className="text-xs md:text-sm text-fuchsia-300 font-thin">
-          A Full Stack Developer
+          A Frontend Developer
         </span>
 
         <h2 className="text-3xl mt-3 md:text-5xl md:mt-5">{name}</h2>
 
-        <p className="w-full text-xs font-light text-neutral-50 leading-5 my-6 lg:w[38vw] md:text-sm md:leading-6 md:my-8">
+        <p className="w-full text-xs font-light text-white leading-5 my-6 lg:w[38vw] md:text-sm md:leading-6 md:my-8">
           {tagline}
         </p>
 
@@ -57,12 +57,12 @@ const Hero = () => {
           </div>
 
           <InfoTile
-            icon={<FiMail size={20} className="text-sky-400" />}
+            icon={<FiMail size={20} className="text-fuchsia-500" />}
             text={email}
           />
 
           <InfoTile
-            icon={<MdOutlineBadge size={20} className="text-sky-400" />}
+            icon={<MdOutlineBadge size={20} className="text-fuchsia-500" />}
             text={`${yearsOfExperience} Jahre Erfahrung`}
           />
 
@@ -70,7 +70,7 @@ const Hero = () => {
             {skills.map((item) => (
               <div
                 key={item}
-                className="text-[11px] bg-blue-800/30 rounded md:text-xs px-3 py-1"
+                className="text-[11px] bg-fuchsia-950 rounded md:text-xs px-3 py-1"
               >
                 {item}
               </div>
@@ -78,15 +78,15 @@ const Hero = () => {
           </div>
 
           <div className="flex items-center gap-2 flex-wrap">
-            <div className="bg-blue-800/30 p-2 rounded">
+            <div className="bg-fuchsia-950 p-2 rounded">
               <FaGithub className="text-lg md:text-xl" />
             </div>
 
-            <div className="bg-blue-800/30 p-2 rounded">
+            <div className="bg-fuchsia-950 p-2 rounded">
               <FaLinkedin className="text-lg md:text-xl" />
             </div>
 
-            <div className="bg-blue-800/30 p-2 rounded">
+            <div className="bg-fuchsia-950 p-2 rounded">
               <FaXTwitter className="text-lg md:text-xl" />
             </div>
           </div>

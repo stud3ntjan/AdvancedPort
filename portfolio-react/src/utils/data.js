@@ -6,6 +6,7 @@ import {
 } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
+import { FaLinux } from "react-icons/fa";
 
 export const PROFILE_DATA = {
   name: "Jan Liedgens",
@@ -15,13 +16,20 @@ export const PROFILE_DATA = {
   location: "Germany",
   yearsOfExperience: 2,
   skills: [
-    "React.js",
-    "JavaScript",
     "HTML",
     "CSS",
     "GIT",
     "Photoshop",
     "Linux",
+    "Kali Linux",
+    "React.js",
+    "JavaScript",
+    "Node.js",
+    "MongoDB",
+    "Tailwind CSS",
+    "ChatGPT",
+    "Scrum",
+    "AWS",
   ],
   email: "janderdev@devmail.com",
   phone: "0000 0000000",
@@ -31,22 +39,22 @@ export const PROFILE_DATA = {
 export const SKILLS = [
   {
     id: "01",
-    icon: IoLogoJavascript,
-    title: "JavaScript",
-    comment:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
-  },
-  {
-    id: "02",
     icon: IoLogoHtml5,
     title: "HTML",
     comment:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
   },
   {
+    id: "02",
+    icon: IoLogoJavascript,
+    title: "JavaScript",
+    comment:
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
+  },
+  {
     id: "03",
-    icon: IoLogoReact,
-    title: "React JS",
+    icon: FaLinux,
+    title: "Linux",
     comment:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
   },
