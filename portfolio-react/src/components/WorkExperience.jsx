@@ -5,7 +5,7 @@ import { WORK_EXPERIENCE } from "../utils/data";
 const WorkExperience = () => {
   return (
     <section
-      className="max-w-screen-xl mx-auto- pb-0 md:pb-20 px-6 md:px-20 relative"
+      className="max-w-screen-xl mx-auto pb-0 md:pb-20 px-6 md:px-20 relative"
       id="experience"
     >
       <h5 className="text-primary text-2xl md:text-3xl font-semibold text-center pb-14 md:pb-4">
@@ -38,7 +38,7 @@ const WorkExpericeneCard = ({
   return (
     <div className="relative">
       <div
-        className={`hidden md:block h-[140px] border-b ${
+        className={`hidden md:block h-[120px] border-b ${
           index > 0 ? "min-w-96 border-l" : " ml-auto w-40"
         } ${isLast ? "w-40 mr-auto" : ""} border-fuchsia-500 border-dashed`}
       />
