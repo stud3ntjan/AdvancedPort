@@ -6,16 +6,19 @@ const projects = [
     name: "Green Valley",
     description: "Spielerischer Lebenslauf im Stile von Stardew Valley.",
     image: Image1,
+    tools: ["Unity", "C#", "Photoshop"],
   },
   {
     name: "Projekt 2",
     description: "Kurze Beschreibung von Projekt 2",
     image: "",
+    tools: ["HTML", "CSS", "JavaScript"],
   },
   {
     name: "Projekt 3",
     description: "Kurze Beschreibung von Projekt 3",
     image: "",
+    tools: ["Tailwind CSS", "Firebase"],
   },
 ];
 
@@ -38,6 +41,17 @@ const Projects = () => {
             />
             <h3 className="text-xl text-white mt-4">{project.name}</h3>
             <p className="text-gray-400 mt-2">{project.description}</p>
+
+            <div className="flex items-center gap-2 flex-wrap mt-3">
+              {project.tools.map((tool, idx) => (
+                <div
+                  key={idx}
+                  className="text-[11px] bg-fuchsia-950 rounded md:text-xs px-3 py-1"
+                >
+                  {tool}
+                </div>
+              ))}
+            </div>
           </div>
         ))}
       </div>
