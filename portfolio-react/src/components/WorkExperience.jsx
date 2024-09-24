@@ -9,7 +9,7 @@ const WorkExperience = () => {
       className="max-w-screen-xl mx-auto pb-0 md:pb-20 px-6 md:px-20 relative"
       id="experience"
     >
-      <h5 className="text-primary text-2xl md:text-3xl font-semibold text-center pb-14 md:pb-4">
+      <h5 className="text-primary text-2xl md:text-4xl font-semibold text-center pb-14 md:pb-4">
         Work Experience
       </h5>
 
