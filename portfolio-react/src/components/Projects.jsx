@@ -11,6 +11,11 @@ const projects = [
     description: "Kurze Beschreibung von Projekt 2",
     image: "",
   },
+  {
+    name: "Projekt 3",
+    description: "Kurze Beschreibung von Projekt 3",
+    image: "",
+  },
 ];
 
 const Projects = () => {
@@ -21,7 +26,10 @@ const Projects = () => {
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto px-6">
         {projects.map((project, index) => (
-          <div key={index} className="bg-gray-800 rounded-lg p-5 shadow-lg">
+          <div
+            key={index}
+            className="bg-gradient-to-br from-fuchsia-950 to-slate-950 rounded-lg border border-fuchsia-500 p-5 shadow-lg"
+          >
             <img
               src={project.image}
               alt={project.name}

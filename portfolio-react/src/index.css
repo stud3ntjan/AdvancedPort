@@ -40,4 +40,19 @@
   .ui-circle {
     @apply w-[130px] h-[130px] md:w-[180px] md:h-[180px] origin-top-left rotate-[-36.39deg] rounded-[117px] border-b-2 border-pink-400;
   }
+
+  .ui-polygon {
+    @apply w-[130px] h-[130px] md:w-[180px] md:h-[180px] bg-transparent border-b-4 border-pink-400;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    animation: rotatePolygon 10s infinite linear;
+  }
+
+  @keyframes rotatePolygon {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
 }
