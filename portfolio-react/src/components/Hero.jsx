@@ -20,7 +20,7 @@ const Hero = () => {
 
   return (
     <section
-      className="max-w-screen-xl flex flex-col gap-14 md:flex-row md:items-center pt-16 md:pt-28 pb-20 px-6 mx-auto"
+      className="relative max-w-screen-xl flex flex-col gap-14 md:flex-row md:items-center pt-16 md:pt-28 pb-20 px-6 mx-auto"
       id="hero"
     >
       <div className="flex-1 text-center md:text-left z-[1]">
@@ -108,7 +108,6 @@ const Hero = () => {
       </div>
 
       <div className="ui-circle absolute top-6 md:top-10 -left-10 md:left-0"></div>
-      <div className="ui-polygon absolute top-6 md:top-10 -left-10 md:left-0"></div>
     </section>
   );
 };
