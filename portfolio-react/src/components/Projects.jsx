@@ -1,10 +1,11 @@
 import React from "react";
+import Image1 from "../assets/gvgif.gif";
 
 const projects = [
   {
-    name: "Projekt 1",
-    description: "Kurze Beschreibung von Projekt 1",
-    image: "",
+    name: "Green Valley",
+    description: "Spielerischer Lebenslauf im Stile von Stardew Valley.",
+    image: Image1,
   },
   {
     name: "Projekt 2",
