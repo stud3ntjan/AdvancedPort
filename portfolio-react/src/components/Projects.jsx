@@ -1,5 +1,6 @@
 import React from "react";
 import Image1 from "../assets/gvgif.gif";
+import Image2 from "../assets/portscreen.png";
 
 const projects = [
   {
@@ -9,10 +10,10 @@ const projects = [
     tools: ["Unity", "C#", "Photoshop"],
   },
   {
-    name: "Projekt 2",
-    description: "Kurze Beschreibung von Projekt 2",
-    image: "",
-    tools: ["HTML", "CSS", "JavaScript"],
+    name: "PortfolioPage",
+    description: "Ansprechende Portfolio Website.",
+    image: Image2,
+    tools: ["HTML", "CSS", "JavaScript", "React", "Express", "MongoDB"],
   },
   {
     name: "Projekt 3",
