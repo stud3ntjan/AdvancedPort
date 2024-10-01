@@ -6,8 +6,9 @@ import WorkExperience from "./components/WorkExperience";
 import Projects from "./components/Projects";
 import AboutMe from "./components/AboutMe";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
-import BG_GRADIENT from "./assets/wave.png";
+import BG_GRADIENT from "./assets/wave2.png";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <Projects />
       <AboutMe />
       <Contact />
+      <Footer />
     </div>
   );
 }
