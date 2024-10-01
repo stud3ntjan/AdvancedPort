@@ -75,6 +75,7 @@
 
 import React from "react";
 import { Link } from "react-scroll";
+import "../index.css";
 
 const Footer = () => {
   return (
@@ -163,9 +164,13 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="text-center text-xs">
-          &copy; {new Date().getFullYear()} Jan Liedgens. Alle Rechte
-          vorbehalten.
+          &copy; {new Date().getFullYear()} Jan Liedgens
         </div>
+
+        {/* WaveEffect not final */}
+        <div className="wave"></div>
+        <div className="wave"></div>
+        <div className="wave"></div>
       </div>
     </footer>
   );
