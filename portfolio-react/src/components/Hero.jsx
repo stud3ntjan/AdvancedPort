@@ -24,7 +24,7 @@ const Hero = () => {
       id="hero"
     >
       <div className="flex-1 text-center md:text-left z-[1]">
-        <span className="text-xs md:text-sm text-fuchsia-300 font-thin">
+        <span className="text-xs md:text-sm text-white font-extralight">
           A Frontend Developer
         </span>
 
@@ -47,7 +47,7 @@ const Hero = () => {
       </div>
 
       <div className="flex gap-2 justify-center md:gap-3 lg:gap-5 z-[1]">
-        <div className="w-[403px] bg-gradient-to-br from-fuchsia-950 to-slate-950 rounded-lg border border-fuchsia-500 p-6">
+        <div className="w-[403px] bg-gradient-to-br from-stone-950 to-pink-950 rounded-lg border border-fuchsia-500 p-6">
           <div className="flex items-center justify-center">
             <img className="hero-img" src={PROFILE_PIC} alt="img one" />
           </div>

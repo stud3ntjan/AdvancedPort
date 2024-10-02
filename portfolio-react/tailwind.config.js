@@ -9,14 +9,22 @@ export default {
     extend: {
       // Colors used
       colors: {
-        primary: "#1e1e1e", // #0F9DF8 #6E0056
-        background: "#708090", // #040B1C #2E001B
-        cardbg: "#1e1e1e", // #061840 #590345
+        primary: "#000000", // #0F9DF8 #6E0056 #1e1e1e
+        background: "#830b5f", // #040B1C #2E001B #708090
+        cardbg: "#3d3d3d", // #061840 #590345 #1e1e1e
         white: "#FBFBFB", // #FBFBFB
 
-        navbg: "#1e1e1e", // #0A214E #63004C #590345
+        navbg: "#000000", // #0A214E #63004C #590345
 
         overlayBg: "rgba(0,0,0,0.3)",
+
+        gradientStart: "#6E0056", // Startpunkt Fuchsia
+        gradientEnd: "#00d4da", // Endpunkt Blau
+      },
+      backgroundImage: {
+        // Gradienten-Definition
+        "fuchsia-gradient": "linear-gradient(135deg, #6E0056, #00d4da)",
+        "footer-gradient": "linear-gradient(135deg, #00d4da, #6E0056)",
       },
     },
   },
