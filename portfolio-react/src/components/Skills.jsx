@@ -5,7 +5,7 @@ import { SKILLS } from "../utils/data";
 const Skills = () => {
   return (
     <section className="max-w-screen-xl px-6 mx-auto pb-20" id="skills">
-      <div className="bg-gradient-to-br from-fuchsia-950 to-slate-950 rounded-lg border border-neutral-950 p-4 md:p-8">
+      <div className="backdrop-blur-2xl border shadow-lg shadow-stone-950/30 rounded-lg p-4 md:p-8">
         <h5
           className="text-xl font-medium mb-5"
           style={{

@@ -74,7 +74,7 @@ const Contact = () => {
         </div>
         <div>
           <h5
-            className="md:hidden text-2xl text-center text-white font-semibold font-medium mt-4 pb-5"
+            className="md:hidden text-2xl text-center text-white font-semibold mt-4 pb-5"
             style={{
               textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
               backgroundImage: "linear-gradient(to right, #6E0056, #0F9DF8)",
@@ -130,7 +130,7 @@ const Contact = () => {
               required
             ></textarea>
 
-            <button type="submit" className="primary-btn">
+            <button type="submit" className="pulse primary-btn">
               Senden
             </button>
           </form>
@@ -142,8 +142,8 @@ const Contact = () => {
 
 const ContactInfoCard = ({ icon, text }) => {
   return (
-    <div className="flex items-center gap-5 bg-gradient-to-br from-fuchsia-950 to-slate-950 rounded-lg border border-slate-950 px-4 py-3 mb-5">
-      <div className="w-10 h-10 text-xl text-white flex items-center justify-center bg-fuchsia-950 rounded border border-slate-50">
+    <div className="flex items-center gap-5 backdrop-blur-2xl rounded-lg shadow-lg shadow-stone-950/50 border px-4 py-3 mb-5">
+      <div className="w-10 h-10 text-xl text-white flex items-center justify-center bg-slate-950 rounded border border-slate-50">
         {icon}
       </div>
 

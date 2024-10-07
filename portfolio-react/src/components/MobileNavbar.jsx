@@ -8,7 +8,7 @@ const MobileNavbar = ({ isOpen, setIsMenuOpen }) => {
 
   return (
     <div className="w-screen fixed top-0 z-20">
-      <div className="w-1/2 h-screen flex flex-col p-8 bg-background">
+      <div className="w-1/2 h-screen flex flex-col p-8 bg-transparent backdrop-blur-md">
         <div className="ui-circle -ml-20 -mt-10" />
 
         <ul>

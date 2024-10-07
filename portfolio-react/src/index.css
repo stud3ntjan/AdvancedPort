@@ -34,7 +34,7 @@
   }
 
   .input-box {
-    @apply bg-gradient-to-br from-fuchsia-950 to-slate-950 rounded border border-slate-950 px-4 py-3 placeholder:text-slate-400 placeholder:text-sm mb-5 focus:outline-none focus:border-slate-50 focus:border-2;
+    @apply bg-black shadow-lg shadow-stone-950/50 rounded border-black px-4 py-3 placeholder:text-slate-400 placeholder:text-sm mb-5 focus:outline-none focus:border-slate-50 focus:border-2;
   }
 
   .ui-circle {
@@ -88,5 +88,50 @@
 
   100% {
     transform: translateX(1);
+  }
+}
+
+/* moving lines effect */
+.moving-lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.1) 10px,
+    transparent 10px,
+    transparent 20px
+  );
+  animation: moveBackground 30s linear infinite;
+}
+
+@keyframes moveBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 1000px 1000px;
+  }
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.01);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
   }
 }

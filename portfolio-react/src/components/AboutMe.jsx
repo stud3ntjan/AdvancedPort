@@ -20,12 +20,12 @@ const AboutMe = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-3 md:gap-4">
         <img
-          className="w-full h-80 object-contain rounded-lg mb-4 md:md-0"
+          className="w-full h-80 object-contain rounded-lg mb-4 md:md-0 "
           src={PROFILE_PIC}
           alt="profile pic"
         />
 
-        <div className="col-span-2 bg-gradient-to-br from-fuchsia-950 to-slate-950 rounded-lg border border-slate-950 p-6">
+        <div className="col-span-2 backdrop-blur-2xl rounded-lg shadow-lg shadow-stone-950/50 border p-6 transform transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg">
           <p className="text-white text-xs md:text-[13px] font-normal text-justify leading-6">
             {ABOUT_ME_DATA.introduction}
             <br />
@@ -36,13 +36,13 @@ const AboutMe = () => {
 
           <br />
 
-          <p className="text-white text-xs md:text-[13px] font-normal text-justify leading-6">
+          <p className="text-white text-xs md:text-[13px] font-normal text-justify leading-6 ">
             {ABOUT_ME_DATA.skills} {ABOUT_ME_DATA.careerGoals}
           </p>
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-5">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-5 ">
         <InfoCard
           count={ABOUT_ME_DATA.stats.yearsOfExperience}
           lable="Jahre Erfahrung"
@@ -64,7 +64,7 @@ const AboutMe = () => {
 
 const InfoCard = ({ lable, count }) => {
   return (
-    <div className="bg-gradient-to-br from-fuchsia-950 to-slate-950 rounded-lg border border-slate-950 px-4 md:px-6 py-3">
+    <div className="backdrop-blur-2xl rounded-lg shadow-lg shadow-stone-950/50 border px-4 md:px-6 py-3">
       <h6 className="text-white text-xl md:text-2xl font-semibold">{count}</h6>
 
       <span className="text-white text-xs md:text-sm font-normal">{lable}</span>

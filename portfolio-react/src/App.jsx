@@ -16,7 +16,7 @@ function App() {
       <div
         style={{
           backgroundImage: `url(${BG_GRADIENT})`,
-          backgroundPosition: `50% 50%`,
+          backgroundPosition: `50% 70%`,
           backgroundSize: `cover`,
           backgroundRepeat: `no-repeat`,
           backgroundAttachment: `fixed`, // Parallax?

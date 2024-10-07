@@ -37,11 +37,11 @@ const Projects = () => {
       >
         Meine Projekte
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto px-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto px-6 ">
         {projects.map((project, index) => (
           <div
             key={index}
-            className="bg-gradient-to-br from-fuchsia-950 to-slate-950 rounded-lg border border-slate-950 p-5 shadow-lg"
+            className="backdrop-blur-2xl rounded-lg shadow-lg shadow-stone-950/50 border p-5 transform transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg"
           >
             <img
               src={project.image}
@@ -55,7 +55,7 @@ const Projects = () => {
               {project.tools.map((tool, idx) => (
                 <div
                   key={idx}
-                  className="text-[11px] bg-fuchsia-950 rounded md:text-xs px-3 py-1"
+                  className="text-[11px] bg-slate-950 rounded md:text-xs px-3 py-1"
                 >
                   {tool}
                 </div>
