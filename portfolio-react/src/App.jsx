@@ -8,7 +8,7 @@ import AboutMe from "./components/AboutMe";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
-import BG_GRADIENT from "./assets/wave6.png";
+import BG_GRADIENT from "./assets/wave7.png";
 
 function App() {
   return (

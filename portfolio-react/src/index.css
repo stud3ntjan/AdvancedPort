@@ -34,11 +34,11 @@
   }
 
   .input-box {
-    @apply bg-gradient-to-br from-fuchsia-950 to-slate-950 rounded border border-fuchsia-500 px-4 py-3 placeholder:text-slate-400 placeholder:text-sm mb-5 focus:outline-none focus:border-fuchsia-500 focus:border-2;
+    @apply bg-gradient-to-br from-fuchsia-950 to-slate-950 rounded border border-slate-950 px-4 py-3 placeholder:text-slate-400 placeholder:text-sm mb-5 focus:outline-none focus:border-slate-50 focus:border-2;
   }
 
   .ui-circle {
-    @apply w-[130px] h-[130px] md:w-[180px] md:h-[180px] origin-top-left rotate-[-36.39deg] rounded-[117px] border-b-2 border-pink-400;
+    @apply w-[130px] h-[130px] md:w-[180px] md:h-[180px] origin-top-left rotate-[-36.39deg] rounded-[117px] border-b-2 border-slate-50;
   }
 }
 

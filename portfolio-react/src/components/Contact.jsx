@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { PROFILE_DATA } from "../utils/data";
 import { IoMdMail } from "react-icons/io";
-import { IoPhonePortraitOutline } from "react-icons/io5";
+// import { IoPhonePortraitOutline } from "react-icons/io5";
 import { MdOutlineWeb } from "react-icons/md";
 
 const Contact = () => {
@@ -73,7 +73,15 @@ const Contact = () => {
           />
         </div>
         <div>
-          <h5 className="md:hidden text-white text-lg font-medium mt-4 pb-5">
+          <h5
+            className="md:hidden text-2xl text-center text-white font-semibold font-medium mt-4 pb-5"
+            style={{
+              textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
+              backgroundImage: "linear-gradient(to right, #6E0056, #0F9DF8)",
+              WebkitBackgroundClip: "text",
+              color: "transparent",
+            }}
+          >
             Kontaktformular
           </h5>
 
