@@ -6,7 +6,15 @@ import { ABOUT_ME_DATA } from "../utils/data";
 const AboutMe = () => {
   return (
     <section className="max-w-screen-xl px-6 mx-auto py-10 md:py-24" id="about">
-      <h5 className="text-primary text-2xl md:text-4xl font-semibold text-center pb-14 md:pb-8">
+      <h5
+        className="text-primary text-2xl md:text-4xl font-semibold text-center pb-14 md:pb-8"
+        style={{
+          textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
+          backgroundImage: "linear-gradient(to right, #6E0056, #0F9DF8)",
+          WebkitBackgroundClip: "text",
+          color: "transparent",
+        }}
+      >
         About me
       </h5>
 

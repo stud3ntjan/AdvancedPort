@@ -9,7 +9,15 @@ const WorkExperience = () => {
       className="max-w-screen-xl mx-auto pb-0 md:pb-20 px-6 md:px-20 relative"
       id="experience"
     >
-      <h5 className="text-primary text-2xl md:text-4xl font-semibold text-center pb-14 md:pb-4">
+      <h5
+        className="text-primary text-2xl md:text-4xl font-semibold text-center pb-14 md:pb-4"
+        style={{
+          textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
+          backgroundImage: "linear-gradient(to right, #3a585d, #0F9DF8)",
+          WebkitBackgroundClip: "text",
+          color: "transparent",
+        }}
+      >
         Work Experience
       </h5>
 

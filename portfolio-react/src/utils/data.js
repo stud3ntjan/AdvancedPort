@@ -6,8 +6,8 @@ import { DiPhotoshop } from "react-icons/di";
 export const PROFILE_DATA = {
   name: "Jan Liedgens",
   tagline:
-    "Hallo ich bin Jan und komme aus der Nähe von Köln. Ich versuche kreativ zu sein und fühle mich in der Technik Welt zuhause.",
-  jobTitle: "Frontend Developer",
+    "Hey & Willkommen auf meinem Portfolio. Mein Name ist Jan und komme aus der Nähe von Köln.",
+  jobTitle: "Media Designer & Frontend Developer",
   location: "Germany",
   yearsOfExperience: 2,
   skills: [
@@ -80,7 +80,7 @@ export const WORK_EXPERIENCE = [
   {
     id: "01",
     company: "Techstarter GmbH",
-    position: "",
+    position: "DevOps & Cloud Engineer",
     duration: "2023-2024",
     description:
       "Weiterbildung im Bereich Cloud und Webentwicklung, mit Fokus auf Linux, JavaScript, Node.js und AWS. Meine größten Learnings lagen in der praktischen Anwendung dieser Technologien, um moderne Webanwendungen und Cloud-Infrastrukturen zu entwickeln.",

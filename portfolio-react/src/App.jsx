@@ -19,7 +19,7 @@ function App() {
           backgroundPosition: `50% 50%`,
           backgroundSize: `cover`,
           backgroundRepeat: `no-repeat`,
-          // backgroundAttachment: `fixed`, // Parallax?
+          backgroundAttachment: `fixed`, // Parallax?
         }}
       >
         <Navbar />

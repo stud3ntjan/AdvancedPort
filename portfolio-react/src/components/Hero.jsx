@@ -25,7 +25,7 @@ const Hero = () => {
     >
       <div className="flex-1 text-center md:text-left z-[1]">
         <span className="text-xs md:text-sm text-white font-extralight">
-          A Frontend Developer
+          A Media Designer & Frontend Developer
         </span>
 
         <h2 className="text-3xl mt-3 md:text-5xl md:mt-5">{name}</h2>
@@ -47,30 +47,30 @@ const Hero = () => {
       </div>
 
       <div className="flex gap-2 justify-center md:gap-3 lg:gap-5 z-[1]">
-        <div className="w-[403px] bg-gradient-to-br from-stone-950 to-pink-950 rounded-lg border border-fuchsia-500 p-6">
+        <div className="w-[403px] bg-gradient-to-br from-fuchsia-950 to-slate-950 rounded-lg border border-neutral-950 p-6">
           <div className="flex items-center justify-center">
             <img className="hero-img" src={PROFILE_PIC} alt="img one" />
           </div>
 
-          <div className="bg-cardbg rounded-md text-center mt-3 p-4">
+          <div className="bg-transparent rounded-md text-center mt-3 p-4">
             <h5 className="text-sm md:text-base text-white">{name}</h5>
-            <p className="text-slate-500 text-xs md:font-medium mt-1">
+            <p className="text-slate-400 text-xs md:font-medium mt-1">
               {jobTitle}
             </p>
 
-            <div className="flex items-center justify-center gap-2 text-slate-500 text-xs mt-1">
+            <div className="flex items-center justify-center gap-2 text-white text-xs mt-1">
               <HiOutlineLocationMarker />
               <p className="font-medium">{location}</p>
             </div>
           </div>
 
           <InfoTile
-            icon={<FiMail size={20} className="text-fuchsia-500" />}
+            icon={<FiMail size={20} className="text-neutral-50" />}
             text={email}
           />
 
           <InfoTile
-            icon={<MdOutlineBadge size={20} className="text-fuchsia-500" />}
+            icon={<MdOutlineBadge size={20} className="text-neutral-50" />}
             text={`${yearsOfExperience} Jahre Erfahrung`}
           />
 
@@ -114,7 +114,7 @@ const Hero = () => {
 
 const InfoTile = ({ icon, text }) => {
   return (
-    <div className="flex items-center gap-4 bg-cardbg p-4 mt-3 rounded-md">
+    <div className="flex items-center gap-4 bg-fuchsia-950 p-4 mt-3 rounded-md">
       {icon}
       <p className="text-xs md:text-sm font-normal">{text}</p>
     </div>
