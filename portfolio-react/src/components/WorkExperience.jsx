@@ -49,23 +49,23 @@ const WorkExpericeneCard = ({
       <div
         className={`hidden md:block h-[120px] border-b ${
           index > 0 ? "min-w-96 border-l" : " ml-auto w-40"
-        } ${isLast ? "w-40 mr-auto" : ""} border-fuchsia-500 border-dashed`}
+        } ${isLast ? "w-40 mr-auto" : ""} border-slate-950 border-dashed`}
       />
 
       {!isLast && (
-        <div className="hidden md:block min-w-96 h-[140px] border-r border-b border-fuchsia-500 border-dashed" />
+        <div className="hidden md:block min-w-96 h-[140px] border-r border-b border-slate-950 border-dashed" />
       )}
 
-      <div className="bg-gradient-to-br from-fuchsia-950 to-slate-950 rounded-lg border border-fuchsia-500 p-4 mx-0 md:mx-10 md:absolute top-[70px] mb-6 md:mb-0">
+      <div className="bg-gradient-to-br from-fuchsia-950 to-slate-950 rounded-lg border border-slate-950 p-4 mx-0 md:mx-10 md:absolute top-[70px] mb-6 md:mb-0">
         <div className="flex items-center justify-between flex-1">
           <div>
             <p className="text-white text-[13.5px] md:text-base font-medium leading-4 md:leading-5">
               {company}
             </p>
-            <span className="text-fuchsia-400 text-xs">{position}</span>
+            <span className="text-slate-500 text-xs">{position}</span>
           </div>
 
-          <div className="text-fuchsia-200 text-[11px] md:text-xs font-medium bg-fuchsia-950 rounded border border-fuchsia-500 border-dashed justify-center items-center px-4 py-2">
+          <div className="text-slate-100 text-[11px] md:text-xs font-medium bg-fuchsia-950 rounded border border-slate-50 border-dashed justify-center items-center px-4 py-2">
             {duration}
           </div>
         </div>
