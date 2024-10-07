@@ -2,6 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const nodemailer = require("nodemailer");
 const dotenv = require("dotenv");
+const path = require("path");
 
 dotenv.config();
 
@@ -10,6 +11,8 @@ const app = express();
 // Middleware
 app.use(cors());
 app.use(express.json());
+
+app.use(express.static(path.join(__dirname, "../dist")));
 
 // Test-Route
 app.get("/", (req, res) => {
@@ -43,6 +46,10 @@ app.post("/send-email", async (req, res) => {
     console.error("Fehler beim Senden der E-Mail:", error);
     res.status(500).send("Fehler beim Senden der E-Mail");
   }
+});
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../dist", "index.html"));
 });
 
 const PORT = process.env.PORT || 5000;
