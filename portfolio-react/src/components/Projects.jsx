@@ -41,7 +41,7 @@ const Projects = () => {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="bg-gradient-to-br from-fuchsia-950 to-slate-950 rounded-lg border border-fuchsia-500 p-5 shadow-lg"
+            className="bg-gradient-to-br from-fuchsia-950 to-slate-950 rounded-lg border border-slate-950 p-5 shadow-lg"
           >
             <img
               src={project.image}
