@@ -134,8 +134,8 @@ const Contact = () => {
 
 const ContactInfoCard = ({ icon, text }) => {
   return (
-    <div className="flex items-center gap-5 bg-gradient-to-br from-fuchsia-950 to-slate-950 rounded-lg border border-fuchsia-500 px-4 py-3 mb-5">
-      <div className="w-10 h-10 text-xl text-white flex items-center justify-center bg-fuchsia-950 rounded border border-fuchsia-500">
+    <div className="flex items-center gap-5 bg-gradient-to-br from-fuchsia-950 to-slate-950 rounded-lg border border-slate-950 px-4 py-3 mb-5">
+      <div className="w-10 h-10 text-xl text-white flex items-center justify-center bg-fuchsia-950 rounded border border-slate-50">
         {icon}
       </div>
 

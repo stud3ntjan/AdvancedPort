@@ -58,14 +58,14 @@ const Hero = () => {
               {jobTitle}
             </p>
 
-            <div className="flex items-center justify-center gap-2 text-white text-xs mt-1">
+            <div className="flex items-center justify-center gap-2 text-white text-xs mt-1 ">
               <HiOutlineLocationMarker />
               <p className="font-medium">{location}</p>
             </div>
           </div>
 
           <InfoTile
-            icon={<FiMail size={20} className="text-neutral-50" />}
+            icon={<FiMail size={20} className="text-neutral-50 " />}
             text={email}
           />
 
