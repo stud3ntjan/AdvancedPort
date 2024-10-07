@@ -24,13 +24,14 @@ function App() {
       >
         <Navbar />
         <Hero />
+
+        <Skills />
+        <WorkExperience />
+        <Projects />
+        <AboutMe />
+        <Contact />
+        <Footer />
       </div>
-      <Skills />
-      <WorkExperience />
-      <Projects />
-      <AboutMe />
-      <Contact />
-      <Footer />
     </div>
   );
 }
