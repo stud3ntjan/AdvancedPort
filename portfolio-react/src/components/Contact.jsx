@@ -51,17 +51,22 @@ const Contact = () => {
 
   return (
     <section className="max-w-screen-xl mx-auto px-6 pb-20" id="contact">
-      <h5 className="text-primary text-2xl md:text-4xl font-semibold text-center pb-8 md:pb-14">
+      <h5
+        className="text-primary text-2xl md:text-4xl font-semibold text-center pb-8 md:pb-14"
+        style={{
+          textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
+          backgroundImage: "linear-gradient(to right, #6E0056, #0F9DF8)",
+          WebkitBackgroundClip: "text",
+          color: "transparent",
+        }}
+      >
         Contact
       </h5>
 
       <div className="grid grid-cols-1 md:grid-cols-2 md:gap-16">
         <div>
           <ContactInfoCard icon={<IoMdMail />} text={PROFILE_DATA.email} />
-          <ContactInfoCard
-            icon={<IoPhonePortraitOutline />}
-            text={PROFILE_DATA.phone}
-          />
+
           <ContactInfoCard
             icon={<MdOutlineWeb />}
             text={PROFILE_DATA.website}

@@ -26,7 +26,7 @@ export const PROFILE_DATA = {
     "Scrum",
     "AWS",
   ],
-  email: "janderdev@devmail.com",
+  email: "Für Anfragen gerne das Formular nutzen!",
   phone: "0000 0000000",
   website: "https://www.linkedin.com/in/janlie",
 };

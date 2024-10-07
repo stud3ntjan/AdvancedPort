@@ -36,3 +36,5 @@ function App() {
 }
 
 export default App;
+
+//bg-gradient-to-r from-fuchsia-800 to-slate-950 bg-clip-text text-transparent
