@@ -6,9 +6,9 @@
   "scripts": {
     "lint": "eslint .",
     "preview": "vite preview",
-    "dev": "concurrently \"cd src && npm start\" \"cd server && npm start\"",
+    "dev": "vite",
     "build": "vite build",
-    "start": "npm install --prefix server && cd server && npm start"
+    "start": "vite preview"
   },
   "dependencies": {
     "react": "^18.3.1",
