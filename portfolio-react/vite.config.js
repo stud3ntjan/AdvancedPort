@@ -5,3 +5,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
 });
+
+    // "dev": "vite",
+    // "build": "cd src && vite build",
+    // "start": "node server/index.js",
