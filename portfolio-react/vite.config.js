@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [react()],
 });
 
-    // "dev": "vite",
-    // "build": "cd src && vite build",
-    // "start": "node server/index.js",
+//base: '/<ADVANCEDPORT>/',
+// "dev": "vite",
+// "build": "cd src && vite build",
+// "start": "node server/index.js",
