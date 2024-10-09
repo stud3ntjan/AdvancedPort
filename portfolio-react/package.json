@@ -7,7 +7,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "dev": "concurrently \"cd src && npm start\" \"cd server && npm start\"",
-    "build": "cd src && npm run build",
+    "build": "vite build",
     "start": "cd server && npm start"
   },
   "dependencies": {
