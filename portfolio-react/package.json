@@ -8,7 +8,7 @@
     "preview": "vite preview",
     "dev": "concurrently \"cd src && npm start\" \"cd server && npm start\"",
     "build": "vite build",
-    "start": "cd server && npm start"
+    "start": "npm install --prefix server && cd server && npm start"
   },
   "dependencies": {
     "react": "^18.3.1",
