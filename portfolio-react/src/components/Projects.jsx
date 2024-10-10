@@ -1,6 +1,7 @@
 import React from "react";
 import Image1 from "../assets/gvgif.gif";
 import Image2 from "../assets/portscreen.png";
+import Image3 from "../assets/tsmarter.gif";
 
 const projects = [
   {
@@ -16,10 +17,10 @@ const projects = [
     tools: ["HTML", "CSS", "JavaScript", "React", "Express", "MongoDB"],
   },
   {
-    name: "Projekt 3",
-    description: "Kurze Beschreibung von Projekt 3",
-    image: "",
-    tools: ["Tailwind CSS", "Firebase"],
+    name: "TechSmarter",
+    description: "Interaktive Lern- und Quiz Website.",
+    image: Image3,
+    tools: ["HTML", "CSS", "JavaScript"],
   },
 ];
 
