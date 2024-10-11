@@ -4,10 +4,11 @@ import react from "@vitejs/plugin-react";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/AdvancedPort/",
+  base: "/",
 });
 
 //base: '/<ADVANCEDPORT>/',
 // "dev": "vite",
 // "build": "cd src && vite build",
 // "start": "node server/index.js",
+//AdvancedPort/
